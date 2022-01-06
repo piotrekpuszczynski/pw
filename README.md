@@ -44,4 +44,3 @@ parametry:
 * n - wielkość grafu (graf zawiera tylko ścieżkę hamiltona)
 * d - liczba dodatkowych krawędzi w grafie
 * h - liczba hostów
-* 
