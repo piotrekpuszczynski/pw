@@ -37,3 +37,11 @@ parametry:
 * d - liczba dodatkowych krawędzi w grafie
 
 ## lista 4
+
+rozszeżenie listy 3 o dodanie hostów, algorytm podczas wysyłania pakietów wybiera najkrótsze ścieżki między hostami dzięki czemu im więcej pakietów zostaje wysłanych przemieszczają się one w coraz mniejszej ilości skoków
+
+parametry:
+* n - wielkość grafu (graf zawiera tylko ścieżkę hamiltona)
+* d - liczba dodatkowych krawędzi w grafie
+* h - liczba hostów
+* 
