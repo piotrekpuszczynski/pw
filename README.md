@@ -45,8 +45,8 @@ Listę sąsiadów wierzchołka i oznaczamy: N(i).
 Podobnie jak w poprzednich zadaniach zakładamy, że w grafie istnieje ścieżka Hamiltona złożona z krawędzi postaci {v, v+1} (dzięki czemu graf jest spójny), oraz pewna liczba d dodatkowych krawędzi (skrótów). 
 Należy zaimplementować wykonywanie protokołu routingu podobnego do znanego protokołu RIP, zgodnie z poniższymi wskazówkami.
 * Każdy wierzchołek i zawiera zmienną reprezentującą tzw. routing table (oznaczaną przez Ri), która dla każdego wierzchołka j, różnego od i, zawiera następujące dane:
-** Ri[j].nexthop - wierzchołek ze zbioru N(i) (tj. sąsiad i) leżący na najkrótszej, znanej wierzchołkowi i, ścieżce p od i do j, oraz
-** Ri[j].cost - długość tej ścieżki p.
+#* Ri[j].nexthop - wierzchołek ze zbioru N(i) (tj. sąsiad i) leżący na najkrótszej, znanej wierzchołkowi i, ścieżce p od i do j, oraz
+#* Ri[j].cost - długość tej ścieżki p.
 * Początkowo  każdy wierzchołek i zna swoich bezpośrednich sąsiadów N(i) i wie o istnieniu krawędzi postaci {v,v+1}. Zatem, 
 dla jN(i),  początkowo Ri[j].cost=1  i  Ri[j].nexthop=j, a
 dla jN(i), Ri[j].cost=|i-j|  oraz
