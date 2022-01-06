@@ -2,6 +2,8 @@
 programowanie współbieżne
 
 każda lista zawiera rozwiązanie zadania w języku go i ada.
+* listy 1 nie wrzucałem - druga lista ją rozszeża
+* listy 3 w go nie ma - czwarta lista ją rozszeża (nie ma rozszeżenia w języku ada)
 
 ## lista 1
 
