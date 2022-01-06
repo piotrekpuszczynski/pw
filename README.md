@@ -4,6 +4,9 @@ programowanie współbieżne
 każda lista zawiera rozwiązanie zadania w języku go i ada.
 
 ## lista 1
+
+Program ma być uruchamiany z parametrami: n, d, b
+
 ### Program ma działać następująco:
 * Generowany jest graf G dla podanych parametrów n i d, gdzie d skrótów generowane jest w sposób losowy.
 * Graf G drukowany jest na terminalu tak aby przedstawić istniejące połączenia. (Zastanowić się nad tym jaki sposób prezentacji będzie najbardziej czytelny.)
@@ -23,3 +26,13 @@ i jednocześnie p dodaje i do swojej listy odwiedzonych wierzchołków oraz i do
 * W raportach końcowych pojawią się dwa wykazy:
 dla każdego wierzchołka, lista kolejno obsłużonych przez niego pakietów, 
 dla każdego pakietu, lista odwiedzonych przez niego wierzchołków  (ścieżka od źródła do ujścia).
+
+## lista2
+
+Program ma być uruchamiany z parametrami: n, d, b, k, h
+
+### a)
+Rozszerz system zaimplementowany w zadaniu z poprzedniej listy w taki sposób, aby można w nim dodać b  krawędzi skierowanych postaci (i,j), gdzie i>j, oraz ustalić parametr h, oznaczający czas życia pakietu rozumiany jako największa liczba jego transferów od wierzchołka do wierzchołka. W grafie mogą występować cykle, więc jeśli pakiet w h krokach nie dotrze do celu, to  drukowany jest komunikat o jego śmierci i znika z systemu.
+### b)
+Dodaj wątek kłusownika, który co pewien czas budzi się, kontaktuje się z wątkiem losowo wybranego wierzchołka i umieszcza w nim pułapkę na jeden pakiet.  Jeśli pakiet dotrze do wierzchołka z zastawioną pułapką, to drukowany jest komunikat, że wpadł on w pułapkę i pakiet znika z systemu wraz z pułapką, w którą wpadł. 
+
