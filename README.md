@@ -29,7 +29,7 @@ dla każdego pakietu, lista odwiedzonych przez niego wierzchołków  (ścieżka 
 
 ## lista2
 
-Program ma być uruchamiany z parametrami: n, d, b, k, h
+Program ma być uruchamiany z parametrami: n, d, k, b, h, klusownik
 
 ### a)
 Rozszerz system zaimplementowany w zadaniu z poprzedniej listy w taki sposób, aby można w nim dodać b  krawędzi skierowanych postaci (i,j), gdzie i>j, oraz ustalić parametr h, oznaczający czas życia pakietu rozumiany jako największa liczba jego transferów od wierzchołka do wierzchołka. W grafie mogą występować cykle, więc jeśli pakiet w h krokach nie dotrze do celu, to  drukowany jest komunikat o jego śmierci i znika z systemu.
