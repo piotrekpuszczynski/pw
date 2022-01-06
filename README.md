@@ -1,8 +1,8 @@
-# pw
-programowanie współbieżne
+# programowanie współbieżne
 
 każda lista zawiera rozwiązanie zadania w języku go i ada.
 * listy 1 nie wrzucałem - druga lista ją rozszeża
+* nie ma listy 4 w języku ada
 
 ## lista 1
 
@@ -29,5 +29,11 @@ paramety:
 * klusownik - po losowym czasie losowo ustawia sie we wierzchołku i czeka na pakiet po czym go usuwa
 
 ## lista 3
+
+protokół routingu podobny do znanego protokołu RIP
+
+parametry:
+* n - wielkość grafu (graf zawiera tylko ścieżkę hamiltona)
+* d - liczba dodatkowych krawędzi w grafie
 
 ## lista 4
