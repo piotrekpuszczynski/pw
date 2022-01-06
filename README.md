@@ -9,7 +9,8 @@ każda lista zawiera rozwiązanie zadania w języku go i ada.
 Program ma być uruchamiany z parametrami: n, d, b
 
 generuje graf oraz pakiety i przesyła współbieżnie pakiety do docelowego wierzchołka
-#### parametry:
+
+parametry:
 * n - wielkość grafu (graf zawiera tylko ścieżkę hamiltona)
 * d - liczba dodatkowych krawędzi w grafie
 * b - liczba pakietów
@@ -19,8 +20,12 @@ generuje graf oraz pakiety i przesyła współbieżnie pakiety do docelowego wie
 Program ma być uruchamiany z parametrami: n, d, k, b, h, klusownik
 
 rozszeża listę 1
-#### paramety:
-* k - maksymalna liczba skoków dla każdego parametru oraz parametr
+
+paramety:
+* n - wielkość grafu (graf zawiera tylko ścieżkę hamiltona)
+* d - liczba dodatkowych krawędzi w grafie
+* b - liczba pakietów
+* k - maksymalna liczba skoków dla każdego parametru
 * klusownik - po losowym czasie losowo ustawia sie we wierzchołku i czeka na pakiet po czym go usuwa
 
 ## lista 3
